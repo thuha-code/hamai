@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        width: 500px;
+        margin: 30px auto;
+        box-shadow: 0 0 5px red;
+        padding: 50px;
+        border-radius: 5px;
+    }
+    span {
+        color: red;
+    }
+    input,
+    select {
+        margin-bottom: 10px;
+    }
+</style>
+<body>
+    <h1 style="text-align: center;">Thông tin đăng ký</h1>
+    <form action="" method="post">
+        <label for=""><span>*</span>Tên đăng nhập</label>
+        <input type="text"placeholder="Nhập tên đăng nhập">
+        <br>
+        <br>
+        <label for=""><span>*</span>Password</label>
+        <input type="password" name="" id=""placeholder="Nhập mật khẩu">
+        <br>
+        <br>
+        <label for=""><span>*</span>Họ và tên</label>
+        <input type="text"placeholder="Nhập họ tên">
+        <br>
+        <br>
+        <label for=""><span>*</span>Giới tính</label>
+        <input type="radio" name="" id="" checked> Nam
+        <input type="radio" name="" id="" checked> Nữ
+        <br>
+        <br>
+        <label for=""><span>*</span>Ngày sinh</label>
+        <input type="date" name="" id="">
+        <br>
+        <br>
+        <label for=""><span>*</span>Quốc gia</label>
+        <select name="" id="">
+            <option value="">VIỆT NAM</option>
+            <option value="">LÀO</option>
+            <option value="">THÁI LAN</option>
+            <option value="">NHẬT BẢN</option>
+            <option value="">HÀN QUỐC</option>
+        </select>
+        <br>
+        <br>
+        <label for=""><span>*</span>Ghi chú</label>
+        <br>
+        <textarea name="" id="" cols="50" rows="10"></textarea>
+        <br>
+        <br>
+        <button>Đăng ký</button>
+        <button>Nhập lại</button>
+    </form>
+</body>
+</html>

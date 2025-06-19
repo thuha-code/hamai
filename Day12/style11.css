@@ -1,0 +1,26 @@
+table{
+    border-collapse: collapse;
+    border-color: rgb(6, 121, 6);
+    text-align: center;
+    width: 70%;
+    
+}
+.title1{
+    background-color:green;
+    color: white;
+}
+.title2{
+    background-color: greenyellow;
+    color: black;
+}
+.body{
+    color: red;
+}
+.Fs{
+    color: red;
+}
+.all {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}

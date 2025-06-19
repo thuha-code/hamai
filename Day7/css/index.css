@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    min-height: 1500px;
+}
+*{
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+header img{
+    width: 100%;
+    height: auto;
+}
+.topmenu ul{
+    background-color: orangered;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    border-radius: 0 0 0 20px;
+    box-shadow: 3px 3px 5px #a8a7a7;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+}
+.topmenu{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.topmenu ul a{
+    padding: 0 10px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.solgan{
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
+.solgan h1{
+    color: #fff;
+    text-shadow: 3px 3px 5px red;
+    font-size: 60px;
+    border-bottom: 3px dotted red;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.solgan h3{
+    color: #fff;
+    font-variant: small-caps;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    word-spacing: 5px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 5px black;
+}
+.mainmenu{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    height: 54px;
+    align-items: center;
+}
+.mainmenu ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.mainmenu ul a{
+    padding:  8px 16px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.left .submenu{
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 0 5px black;
+    border-radius: 5px; 
+}
+.left>li{
+    position: relative;
+}
+.left>li:hover>.submenu{
+    display: block;
+}
+.left .submenu li{
+    padding: 0 5px;
+}
+.left .submenu li:hover{
+    background-color: red;
+}
+.left .submenu a{
+    color: #666;
+}
+.col-8{
+    width: 75%;
+    float: left;
+    border: 1px solid red;
+    height: 500px;
+}
+.col-4{
+    width: 25%;
+    float: left;
+    border: 1px solid red;
+    height: 500px;
+}
+.col-4 ul li{
+    list-style: none;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+}
+.col-4 ul li a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 24px;
+    color: orange;
+    font-weight: bold;
+}
+.col-4 ul{
+    margin: 0;
+    padding: 0;
+    box-shadow: 0 0 5px grey;
+}
+.col-4 ul li:hover{
+    background-color: orangered;
+}
+.col-4 ul li:hover>a{
+    color: #fff;
+}
+.col-4 i{
+    color: #666;
+}

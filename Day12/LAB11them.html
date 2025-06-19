@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài thêm lab11 </title>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+body {
+    margin: 20px;
+    padding: 40px 20px;
+    font-family: "Open Sans", sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+/* Phần box1 */
+.table1 {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid #a39f9f;
+    width: 100%;
+    margin: 15px;
+}
+.title1{
+    background-color: rgb(207, 207, 207);
+}
+.table1 td {
+    border: 1px solid #a39f9f;
+}
+img {
+
+    width: auto;
+    height: 50px;
+    margin: 10px;
+}
+td {
+    text-align: center;
+    padding: 20px 0;
+}
+.table1 th {
+    font-weight: normal;
+}
+.vuong {
+    width: 100px;
+    height: 45px;
+    border: 1px solid #a39f9f;
+    border-radius: 5px;
+    outline: none;
+    padding: 10px;
+
+}
+.productimg {
+    padding: 30px;
+}
+.box1 {
+    display: flex;
+    float: left;
+    width: calc(66.33% - 30px);
+    margin: 15px;
+}
+/* phần box2.1 */
+.table2 {
+    border: 1px solid #a39f9f;
+    border-collapse: collapse;
+    width: 30%;
+    max-height: 100px;
+}
+.box2 {
+    width: calc(33.33% - 30px);
+    margin: 15px;
+}
+.title2 th {
+ text-align: left;
+ font-weight: normal;
+ padding: 29px;
+}
+.title2 {
+    background-color: rgb(207, 207, 207);
+}
+.title2-list td {
+    text-align: left;
+    padding: 35px 15px;
+    border: 1px solid #a39f9f;
+    font-weight: bold;
+}
+.title2-list span {
+    font-weight: normal;
+}
+/* box2.2 */
+.title3 {
+   transition: 0.3s;
+}
+a.cart{
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 20px 0 0; /*trên phải dưới trái */
+}
+a.check{
+    border-radius: 50px;
+    display: inline-block;
+    background-color: #F28123;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box1">
+    <table class="table1">
+        <tr class="title1">
+            <th> </th>
+            <th class="productimg">Product Image</th>
+            <th height="30">Name</th>
+            <th height="30">Price</th>
+            <th height="30">Quantity</th>
+            <th height="30">Total</th>
+        </tr>
+        <tr>
+            <td><i class="far fa-window-close"></i></i></td>
+            <td> <img src="imgday12/dau-tay-da-lat.jpg" alt=""></td>
+            <td>Strawberry</td>
+            <td>$85</td>
+            <td><input type="number" value="0" class="vuong"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td><i class="far fa-window-close"></i></i></td>
+            <td> <img src="imgday12/images.jpg" alt=""></td>
+            <td>Berry</td>
+            <td>$70</td>
+            <td><input type="number" value="0" class="vuong"></td>
+            <td>1</td>  
+        </tr>
+        <tr>
+          <td><i class="far fa-window-close"></i></i></td>
+            <td><img src="imgday12/lemon.webp" alt=""> </td>
+            <td>Lemon</td>
+            <td>$35</td>
+            <td><input type="number" value="0" class="vuong"></td>
+            <td>1</td>  
+        </tr>
+    </table>
+    </div>
+    <br>
+    <div class="box2"></div>
+    <table class="table2">
+        <tr class="title2">
+            <th>Total</th>
+            <th>Price</th>
+        </tr>
+        <tr class="title2-list">
+            <td>Subtotal:</td>
+            <td><span>$500</span></td>
+        </tr>
+        <tr class="title2-list">
+            <td>Shipping:</td>
+            <td><span>$45</span></td>
+        </tr>
+        <tr class="title2-list">
+            <td>Total:</td>
+            <td><span>$545</span></td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <div class="title3">
+    <a href="cart.html" class="cart">Update Cart</a>
+    <a href="checkout.html" class="check">Check Out</a>
+    </div>
+    </div>
+</body>
+</html>

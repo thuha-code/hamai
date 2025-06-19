@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        *{
+            box-sizing: border-box;
+        }
+        header img{
+            width: 100%;
+            height: 400px;
+        }
+        header{
+            width: 100%;
+            height: auto;           
+        }
+        header nav a{
+            color: white;
+            text-decoration: none;
+            padding: 0 10px;
+            font-variant: small-caps;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        header nav{
+            height: 54px;
+            text-align: center;
+            line-height: 54px;
+            background-color: orangered;
+        }
+        .border-right{
+            border-right: 1px solid #fff;
+        }
+        .left{
+            width: 75%;
+            float: left;
+            min-height: 500px;
+        }
+        .right{
+            width: 25%;
+            background-color: rgb(187, 185, 185);
+            float: left;
+            min-height: 500px;
+        }
+        footer{
+            background-color: aquamarine;
+            text-align: center;
+            height: 100px;
+            line-height: 100px;
+            clear: both;
+            border-top: 5px double orangered;
+        }
+        .product-item{
+            width: calc(25% - 10px);
+            float: left;
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+            margin: 5px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px black;
+        }
+        .product-item img{
+            width: 75%;
+            height: 200px;
+        }
+        iframe[ name=page ]{
+            width: 100%;
+            min-height: 400px;
+        }
+        .right ul li a{
+            text-decoration: none;
+            padding: 10px 0;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="img2/caodangfptpolytechnic-lienhe-1.jpg" alt="">
+            <nav>
+                <a href="trangchu.html" class="border-right" target="page">Trang chủ</a>
+                <a href="gioithieu.html" class="border-right" target="page">Giới thiệu</a>
+                <a href="lienhe.html" class="border-right" target="page">Liên hệ</a>
+                <a href="gopy.html" class="border-right" target="page">Góp ý</a>
+                <a href="sanpham.html" class="border-right" target="page">sản phẩm</a>
+                <a href="giaidap.html" target="page">Giải đáp</a>
+            </nav>
+        </header>
+        <main>
+            <div class="left">
+                <iframe src="trangchu.html" frameborder="0" name="page">
+
+                </iframe>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="TPhochiminh.html" target="page">TP.Hồ Chí Minh</a></li>
+                    <li><a href="TPvungtau.html" target="page">TP. Vũng Tàu</a></li>
+                    <li><a href="TPdalat.html" target="page">TP. Đà Lạt</a></li>
+                    <li><a href="TPnhatrang.html" target="page">TP. Nha Trang</a></li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <h3>FPT Polytechnic 2017. All rights reserved.</h3>
+        </footer>
+    </div>
+</body>
+</html>

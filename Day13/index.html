@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phúc Long</title>
+    <link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <style>
+        /* phần header */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        * {
+            box-sizing: border-box;
+        }
+        nav{
+            background-color:palevioletred;
+            height: 54px;
+            line-height: 54px;
+            text-align: center;
+            box-shadow: 0 0 5px pink;
+        }
+        nav a{
+            padding: 10px 16px;
+            text-decoration: none;
+            font-size: 14px;
+            color: aliceblue;
+        }
+        a:hover{
+            color:rgb(138, 201, 204)
+        }
+        nav img {
+            margin: 10px;
+            height: 40px;
+            display: flex;
+            float:left;
+        }
+        
+        .banner img {
+            width: 100%;
+            height: auto;
+        }
+        /* phần main */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+        .product-list {
+            width: 100%;
+            margin: auto; 
+           
+             /* display: flex;
+             flex-wrap: wrap;
+             gap: 20px; */
+            }
+        .product-item {
+            width: calc(25% - 20px);
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(212, 211, 211);
+            text-align:left;
+            float: left;
+            padding: 20px;
+            box-sizing: border-box;
+            
+        }
+        .product-item img{
+            box-sizing: border-box;
+            width: 100%;
+            border-radius: 5px;
+            justify-content: center;
+            display: flex;
+        }
+        .title {
+            text-align: center;
+            color: rgb(236, 95, 142);
+        }
+        .product-item a{
+                text-decoration: none;
+                
+        }
+        /* map */
+        .map iframe {
+            padding: 50px;
+            width: 100%;
+        }
+        .button {
+            width: 100%;
+            height: 30px;
+            background-color: rgb(223, 101, 142);
+            border-color: rgb(223, 101, 142);
+            font-size: 15px;
+            color: aliceblue;
+        }
+        .product-item:hover{
+            box-shadow: 0 0 5px gray;
+        }
+        .more button {
+            color: palevioletred;
+            border-color: palevioletred;
+            text-align: right;
+        }
+        .title {
+    text-align: center;
+}
+    h5 {
+        color: gray;
+    }
+    /* footer */
+    footer  {
+        clear: both;
+    }
+    footer{
+    width: 90%;
+    margin: auto;
+    background-color:#006f3c;
+    color: white;
+    padding: 10px;
+}
+footer .col-4{
+    width: 33.33%;
+    padding:10px;
+}
+footer .container .col-4 img{
+    width: 50%;
+    height: 100px;
+}
+footer .container{
+    display: flex;
+   
+}
+.col-4 i {
+    color: #fff;
+    font-size: 24px;
+}
+.all {
+    display: flex;
+    padding: 0 10px 0 10px;
+}
+    
+        
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="img13/Logo_Phúc_Long.svg.png" alt="">
+            <a href=""><i class="fa-solid fa-house"></i>  Trang chủ</i></a>
+            <a href=""><i class="fa-solid fa-list"></i> Sản phẩm</a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i> Giỏ hàng</a>
+            <a href=""><i class="fa-solid fa-user-plus"></i> Đăng ký</a>
+            <a href=""><i class="fa-solid fa-user"></i> Đăng nhập</a>
+        </nav>
+       <!-- banner -->
+        <div class="banner">
+            <img src="img13/bannerProduct.d5b320c4fce18063426b.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <!-- phần menu -->
+        <div class="container">
+            <!-- Hàng 1 -->
+            <h2 class="title">BEST SELLERS - TRÀ THƠM CHẤT LƯỢNG</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/hong-tra-dao-20250205072158.png" alt="">
+                    <p>Hồng trà đào (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/hong-tra-dao-20250205072158.png" alt="">
+                    <p>Hồng trà đào (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/hong-tra-dao-20250205072158.png" alt="">
+                    <p>Hồng trà đào (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/hong-tra-dao-20250205072158.png" alt="">
+                    <p>Hồng trà đào (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div><br>
+            
+            <!-- MORE -->
+             <div class="more">
+                <button>Xem thêm</button>
+             </div>
+            <hr style="background-color: palevioletred;"> 
+            
+            <!-- Hàng 2 -->
+            <br><h2 class="title">BEST SELLERS - TRÀ SỮA ĐẬM VỊ</h2><br>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/65000094-65000102-tra-sua-phuc-long-_3682b729-4ffc-4956-abb3-7026070663c2-og.png" alt="">
+                    <p>Trà sữa phúc long (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/65000094-65000102-tra-sua-phuc-long-_3682b729-4ffc-4956-abb3-7026070663c2-og.png" alt="">
+                    <p>Trà sữa phúc long (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/65000094-65000102-tra-sua-phuc-long-_3682b729-4ffc-4956-abb3-7026070663c2-og.png" alt="">
+                    <p>Trà sữa phúc long (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/65000094-65000102-tra-sua-phuc-long-_3682b729-4ffc-4956-abb3-7026070663c2-og.png" alt="">
+                    <p>Trà sữa phúc long (L)</p>
+                    <P>50.000 </P>
+                    <button class="button"><i class="fa-solid fa-cart-plus"></i> Đặt mua</button>
+                </div>
+            </div>
+        
+
+        <br>
+        <!-- phần bản đồ -->
+            <div class="map">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.45570273102!2d106.62699417451816!3d10.852902757779516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317529466247deb7%3A0x837f6cf22372ab7e!2sFPT%20PolySchool%20TP.HCM!5e0!3m2!1svi!2s!4v1749537465160!5m2!1svi!2s" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+        <!-- phần tin tức -->
+         <h3 class="title">Tin tức & Khuyến mãi </h3>
+         
+                <div class="product-list">
+                <div class="product-item">
+                     <img src="img13/uu dai.png" alt="">
+                    <div class="content">
+                        <h5 style="text-align: right;"><i class="fa-solid fa-eye"></i> 708</h5>
+                        <hr>
+                        <h4>Ưu Đãi Hội Viên - Coupon Giảm 50% Trà Ngon</h4>
+                    </div>
+                </div>
+                </div>
+                <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/uu dai.png" alt="" >
+                    <div class="content">
+                        <h5 style="text-align: right;" ><i class="fa-solid fa-eye"></i> 708</h5>
+                        <hr>
+                        <h4>Ưu Đãi Hội Viên - Coupon Giảm 50% Trà Ngon</h4>
+                    </div>
+                </div>
+                </div>
+                <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/uu dai.png" alt="">
+                    <div class="content">
+                        <h5 style="text-align: right;"><i class="fa-solid fa-eye"></i> 708</h5>
+                        <hr>
+                        <h4>Ưu Đãi Hội Viên - Coupon Giảm 50% Trà Ngon</h4>
+                    </div>
+                </div>
+                </div>
+                <div class="product-list">
+                <div class="product-item">
+                    <img src="img13/uu dai.png" alt="">
+                    <div class="content">
+                        <h5 style="text-align: right;"><i class="fa-solid fa-eye"></i> 708</h5>
+                        <hr>
+                        <h4>Ưu Đãi Hội Viên - Coupon Giảm 50% Trà Ngon</h4>
+                    </div>
+                </div>
+                </div>
+        </div>
+        <br>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="col-4">
+                    <img src="img13/Logo_Phúc_Long.svg.png" alt=""> <br> 
+                    <br>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    <a href=""><i class="fa-brands fa-wikipedia-w"></i></a>
+            </div>
+                    <br>
+                    <br>
+                    <div class="all">
+            <div class="col-8">
+                        <h4 style="color:#fff"> THÔNG TIN LIÊN HỆ</h4>
+                        <p>
+                            Điện thoại: (024) 7300 1955 <br>
+                            Email: caodang@fpt.edu.vn
+                        </p> 
+            </div> 
+             <div class="col-4">
+                        <p>
+                            CÔNG TY <br>
+                            Giới thiệu công ty <br>
+                            Thư viện hình ảnh <br>
+                            Liên hệ <br>
+                            Hình ảnh Menu
+                        </p>
+             </div>       
+            <div class="col-4">
+                <p>HỘI VIÊN <br>
+Câu hỏi thường gặp (FAQ) <br>
+Điều khoản và điều kiện chương trình hội viên <br>
+Điều khoản & Điều kiện Thẻ trả trước <br>
+Điều khoản và Điều kiện sử dụng Thiệp Voucher</p>
+            </div>         
+            </div>
+          
+    </footer>
+    <script src="https://uhchat.net/code.php?f=ca1eb3"></script>
+</body>
+</html>
